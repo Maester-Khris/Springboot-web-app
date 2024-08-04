@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage with Bootstrap and Springboot + Thymeleaf</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- import static resources with webjars -->
+    <link th:href="@{/webjars/bootstrap/4.4.1/css/bootstrap.min.css}" rel="stylesheet">
+    <script th:src="@{/webjars/jquery/3.6.4/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.4.1/js/bootstrap.min.js}"></script>
+</head>
+<body>
+    
+      <section class="pt-5 pb-5 bg-dark position-relative" style="min-height:100vh; background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80); background-size: cover;">
+        <div class="bg-overlay"></div>
+        <div class="container pt-5 pb-5 position-relative">
+          <div class="row d-flex justify-content-between pt-lg-5 align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-7 text-center text-lg-left mb-5 mb-lg-0">
+              <h1 class="display-3 font-weight-bold text-white aos-init aos-animate" data-aos="fade-up">Build better websites faster</h1>
+              <div class="my-4 aos-init" data-aos="fade-up">
+                <p class="lead text-white">Easily create website layouts, templates, wireframes, mockups in less time and zero coding!</p>
+              </div>
+              <div class="d-flex justify-content-center justify-content-lg-start aos-init" data-aos="fade-up">
+                <div class="d-flex mr-2">
+                  <i class="fas fa-star fa-lg text-warning m-1"></i>
+                  <i class="fas fa-star fa-lg text-warning m-1"></i>
+                  <i class="fas fa-star fa-lg text-warning m-1"></i>
+                  <i class="fas fa-star fa-lg text-warning m-1"></i>
+                  <i class="fas fa-star fa-lg text-warning m-1"></i>
+                </div>
+                <span class="text-white">(Average score: 4.9/5)</span>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row justify-content-center">
+                <div class="col-xl-8 col-md-10">
+                  <form class="position-relative d-block aos-init aos-animate" data-aos="fade-up">
+                    <div class="form-group">
+                      <label class="text-white" for="course-name-1">Your Name</label>
+                      <input name="course-name" id="course-name-1" type="text" class="form-control form-control-lg" placeholder="Type your name">
+                    </div>
+                    <div class="form-group">
+                      <label class="text-white" for="course-email-1">Email Address</label>
+                      <input name="course-email" id="course-email-1" type="email" class="form-control form-control-lg" placeholder="you@yoursite.com">
+                    </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="form-group mb-1">
+                            <label class="text-white">Skill Level:</label>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-group rounded bg-white p-2 border">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="course-radio-beginner-1" name="course-radio-1" class="custom-control-input">
+                              <label class="custom-control-label" for="course-radio-beginner-1">Beginner</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-group rounded bg-white p-2 border">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="course-radio-advanced-1" name="course-radio-1" class="custom-control-input">
+                              <label class="custom-control-label" for="course-radio-advanced-1">Advanced</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group text-center">
+                      <button class="btn btn-lg btn-success btn-block mb-2" type="submit">Claim your free spot</button>
+                      <small class="text-white">You’ll recieve your first lesson via email in less than a minute.</small>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+  
+</body>
+</html>

@@ -1,0 +1,31 @@
+# Maven
+target/
+*.log
+*.jar
+*.war
+*.class
+
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Other
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Environment files
+.env

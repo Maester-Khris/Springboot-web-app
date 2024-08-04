@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage with Bootstrap and Springboot + Thymeleaf</title>
+
+    <!-- web static resources -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- import static resources with webjars -->
+    <link th:href="@{/webjars/bootstrap/4.4.1/css/bootstrap.min.css}" rel="stylesheet">
+    <script th:src="@{/webjars/jquery/3.6.4/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/4.4.1/js/bootstrap.min.js}"></script>
+</head>
+<body>
+    <div class="space-medium">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div class="feature-block-v7 feature-block">
+                        <div class="feature-icon text-brand bg-brand-light mb-5">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h2>Build better apps</h2>
+                            <p class="lead">Donec malesuada eget elit vel posuere. Maecenas ullamcorper velit vel purus ullamcorper semperles fringilla. </p>
+                            <hr class="m-t-30 m-b-30">
+                            <p>Pellentesque hendrerit neque pur ras ut rutrum enim onec auctor, nisl vel ultricies placerat, purporta metus, sed cursus enim ante nec est.</p>
+                            <p>Donec ante nibh hendrerit vitae sodales eget fficitur ac justo. Aenean porta vitae nisi eget venena aliquam odio euismod arcu tempus, id efficituposuere.</p>
+                            <a href="#" class="btn btn-rounded btn-outline-primary">Get the app</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-xl-1 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="circle-1"></div>
+                    <div class="feature-app-img">
+                        <img src="https://jituchauhan.com/quanto/quanto/images/iphone-img-2.png" alt="App Landing Page Template - Quanto">
+                    </div>
+                </div>
+            </div>
+             <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-4"> 
+              Created for <a href="https://jituchauhan.com/quanto/" target="_blank" class="text-primary">jituchauhan.com</a>
+              </div></div>
+        </div>
+    </div>
+</body>
+</html>
