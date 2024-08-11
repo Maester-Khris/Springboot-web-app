@@ -1,10 +1,10 @@
-package nk.projects.spbmicroservices;
+package nk.projects.webapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpbmicroservicesApplicationTests {
+class MyWebApplicationTests {
 
 	@Test
 	void contextLoads() {

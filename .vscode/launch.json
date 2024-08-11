@@ -1,0 +1,13 @@
+{"version": "0.2.0",
+"configurations": [
+    {
+        "type": "java",
+        "name": "Springboot Launcher",
+        "request": "launch",
+        "mainClass": "nk.projects.webapp.MyWebApplication",
+        "args": "--doSeed=yes",
+        "vmArgs": [
+            
+        ]
+    }
+]}
